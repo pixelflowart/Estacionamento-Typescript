@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+
+    background-color:darkgrey;
+}
+.container{
+display:flex;
+flex-direction: column;
+justify-content:center;  
+align-items:center;
+text-align:center;  
+}
+
+.header{
+    align-content: center;
+    width: 100%;
+    background-color:darkslateblue;
+    color:aliceblue;
+    padding: 30px 0px 30px 0px;
+}
+
+.logo {
+    background-image: url('./assets/parking.png');
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10%;
+    margin: 0;
+}
+.titulo2{
+    color: cornflowerblue;
+    font-weight:lighter;
+}
+
+.entradas{
+    width: 100%;
+    color: white;
+    background-color:black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.entradas input{
+    padding: 1rem;
+    border-radius: 60%;
+    text-align: center;
+}
+
+.entradas button{
+    padding: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tabela{
+    width: 100%;
+    background-color:azure;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+th{
+    padding: 20px;
+}
+#placaM{
+    padding: 0 2rem 0 2rem;
+}
+#nomeM{
+    padding: 0 8rem 0 8rem;
+}
+#entradaM{
+    padding: 0 6rem 0 6rem;
+}
+.delete{
+    padding: 0.5rem;
+    color:brown;
+    font-weight: bolder;
+}
